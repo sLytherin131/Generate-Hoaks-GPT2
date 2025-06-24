@@ -28,7 +28,7 @@ def generate_hoax(input_text, max_length=40):
 
 # UI
 st.title("🤖 Generator Teks Hoax Bahasa Indonesia")
-prompt = st.text_input("Masukkan prompt awal:", "Viral di media sosial bahwa")
+prompt = st.text_input("Masukkan prompt awal:", "")
 
 if st.button("Generate"):
     with st.spinner("Generating..."):
